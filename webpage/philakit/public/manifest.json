@@ -1,0 +1,9 @@
+{
+  "short_name": "philakit",
+  "name": "philakit",
+  "description": "philanthropy toolkit",
+
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000"
+}
