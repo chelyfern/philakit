@@ -1,0 +1,47 @@
+.link {
+    color: black;
+    text-decoration: none;
+    display: block;
+    float: left;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 20px;
+}
+
+.prof {
+    color: black;
+    text-decoration: none;
+    display: block;
+    float: left;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    font-size: 20px;
+    width: 45px;
+    height: auto;
+}
+
+.logo {
+    color: black;
+    text-decoration: none;
+    display: block;
+    float: right;
+    padding-right: 10px;
+    padding-left: 70px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 20px;
+}
+
+.logoimg {
+    display: block;
+    float: right;
+    width: 70px;
+    height: auto;
+    padding-right: 40px;
+    padding-left: 10px;
+    padding-top: 8px;
+    padding-bottom: 20px;
+}
