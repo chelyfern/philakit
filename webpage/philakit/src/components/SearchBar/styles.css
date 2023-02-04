@@ -1,0 +1,16 @@
+#search-bar {
+    padding: 10px;
+    background-image: url('./searchIcon.svg');
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 5%;
+    background-position-x: 3%;
+
+    text-align: center;
+    width: 40%;
+    padding: 1em ;
+    padding-left: 3em; 
+    border: 2px solid #000000;
+    border-radius: 35px;
+
+}

@@ -19,6 +19,12 @@ function App() {
         <Route exact path="/map">
           <MapPage />
         </Route>
+        <Route exact path="/blog">
+          
+        </Route>
+        <Route exact path="/profile">
+          
+        </Route>
       </Switch>
 
     </div>

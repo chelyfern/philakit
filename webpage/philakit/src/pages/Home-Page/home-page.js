@@ -1,11 +1,19 @@
-import React from "react";
+import React, { Link } from "react";
 import './styles.css'
-import { BlogPost } from "../../components";
+import { SearchBar, Discover } from "../../components";
 
 export default function HomePage() {
     return (
-        <div>
-            <BlogPost/>
+        <div id="homepage-container">
+
+            <SearchBar id="search-bar"/>
+
+            <a href="#discover-container" id="surprise-me-link">surprise me!</a>
+
+            <div id="discover-container">
+                <Discover id="discover-section"/>
+            </div>
+
         </div>
     )
 }
