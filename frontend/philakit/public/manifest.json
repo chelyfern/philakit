@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+
+  "name": "philakit",
+  "description": "philanthropy toolkit",
+
+  "browser_action": {
+    "default_popup": "index.html",
+    "default_title": "philakit"
+  },
+
+  "permissions": []
+}
