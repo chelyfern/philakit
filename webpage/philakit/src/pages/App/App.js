@@ -1,7 +1,7 @@
 import './App.css';
 import React, {  } from 'react';
 import { Switch, Route } from 'react-router-dom';
-import { HomePage, MapPage } from '..'
+import { HomePage, MapPage, BlogPage, ProfilePage, LoginPage } from '..'
 import { Navbar } from '../../components'
 
 function App() {
@@ -18,6 +18,15 @@ function App() {
         </Route>
         <Route exact path="/map">
           <MapPage />
+        </Route>
+        <Route exact path="/blog">
+          <BlogPage />
+        </Route>
+        <Route exact path="/profile">
+          <ProfilePage />
+        </Route>
+        <Route exact path="/login">
+          <LoginPage />
         </Route>
       </Switch>
 

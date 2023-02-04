@@ -1,4 +1,15 @@
-body {
-    font-size: 50px;
+.post {
     color: black;
+    align-self: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 700px;
+    height: 200px;
+    box-shadow: 0px 0px 15px #CCD4DB;
+    border-radius: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-top: 40px;
 }
