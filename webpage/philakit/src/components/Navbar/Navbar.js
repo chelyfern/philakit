@@ -7,9 +7,9 @@ import prof from './User 2.svg'
 export default function Navbar() {
     return (
         <div>
-            <a href="tbd">
+            <Link to="../profile">
                 <img className="prof" src={prof} alt="profile" />
-            </a>
+            </Link>
             <Link exact="true" to="/" className="link">home</Link>
             <Link exact="true" to="/map" className="link">map</Link>
             <Link exact="true" to="/blog" className="link">blog</Link>
