@@ -1,7 +1,7 @@
 import './App.css';
 import React, {  } from 'react';
 import { Switch, Route } from 'react-router-dom';
-import { HomePage } from '..'
+import { HomePage, MapPage } from '..'
 import { Navbar } from '../../components'
 
 function App() {
@@ -13,8 +13,11 @@ function App() {
       </div>
 
       <Switch>
-        <Route exact path="/home">
+        <Route exact path="/">
           <HomePage />
+        </Route>
+        <Route exact path="/map">
+          <MapPage />
         </Route>
       </Switch>
 
