@@ -1,5 +1,4 @@
 #search-bar {
-    padding: 10px;
     background-image: url('./searchIcon.svg');
     background-repeat: no-repeat;
     background-position: left center;
@@ -12,5 +11,6 @@
     padding-left: 3em; 
     border: 2px solid #000000;
     border-radius: 35px;
+    align-self: center;
 
 }
