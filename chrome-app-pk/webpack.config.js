@@ -27,4 +27,7 @@ module.exports = {
     path: path.resolve(__dirname, "..", "extension"),
     // publicPath: '/',
   },
+  // resolve:{
+  //   fallback: { "buffer": false }
+  // }
 };
