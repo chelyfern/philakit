@@ -15,19 +15,8 @@ const ProfilePage = ({ isUser, setisUser, user, setUser }) => {
 
     const [title, setTitle] = useState("")
     const [description, setDescription] = useState("")
-    // const [time, setTime] = useState("")
     
     const fetchPost = async () => {
-        // const response=db.collection('post');
-        // const data=await response.get();
-        // console.log("test");
-        // data.docs.forEach(item=>{
-        //     setPosts([...posts,item.data()])
-        //     console.log("posts:")
-        //     console.log(posts)
-        // })
-
-       
         await getDocs(collection(db, "post"))
             .then((querySnapshot)=>{               
                 const newData = querySnapshot.docs
@@ -36,7 +25,6 @@ const ProfilePage = ({ isUser, setisUser, user, setUser }) => {
                 console.log("posts: ");    
                 
             })
-       
     }
    
     useEffect(()=>{
