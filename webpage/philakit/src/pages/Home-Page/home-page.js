@@ -1,4 +1,4 @@
-import React, { Link } from "react";
+import React from "react";
 import './styles.css'
 import { SearchBar, Discover, Res } from "../../components";
 
