@@ -3,6 +3,8 @@ import React, {  } from 'react';
 import { Switch, Route, Routes, BrowserRouter } from 'react-router-dom';
 import { HomePage, MapPage, BlogPage, ProfilePage, LoginPage } from '..'
 import { Navbar } from '../../components'
+import RegisterPage from '../registerPage/register';
+import SearchPage from '../seachPage/searchPage';
 
 function App() {
   return (
@@ -18,6 +20,8 @@ function App() {
         <Route exact path="/blog" element={<BlogPage />}/>
         <Route exact path="/profile" element={<ProfilePage />}/>
         <Route exact path="/login" element={<LoginPage />}/>
+        <Route exact path="/register" element={<RegisterPage />}/>
+        <Route exact path="/search" element={<SearchPage />}/>
 
       </Routes>
 

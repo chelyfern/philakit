@@ -15,7 +15,6 @@ export default function HomePage() {
             <div id="discover-container">
                 {/* <Discover id="discover-section"/> */}
             </div>
-            <Res/>
 
         </div>
     )
