@@ -1,10 +1,10 @@
 import React from "react";
-import './login.css'
+import './register.css'
 
-export default function LoginPage() {
+export default function RegisterPage() {
     return (
         <div>
-            <h1>Login page</h1>
+            <h1>Sign up page</h1>
             <div className="form">
                 <form>
                     <div className="input">
@@ -16,7 +16,7 @@ export default function LoginPage() {
                         <input type="password" name="pass" required/>
                     </div>
                     <div className="buttons">
-                        <button>Sign in</button>
+                        <button>Create account</button>
                     </div>
                 </form>
             </div>

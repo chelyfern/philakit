@@ -1,7 +1,7 @@
 import './App.css';
 import React, {  } from 'react';
 import { Switch, Route } from 'react-router-dom';
-import { HomePage, MapPage, BlogPage, ProfilePage, LoginPage } from '..'
+import { HomePage, MapPage, BlogPage, ProfilePage, LoginPage, RegisterPage } from '..'
 import { Navbar } from '../../components'
 
 function App() {
@@ -27,7 +27,9 @@ function App() {
         </Route>
         <Route exact path="/login">
           <LoginPage />
-          
+        </Route>
+        <Route exact path="/register">
+          <RegisterPage />
         </Route>
         <Route exact path="/profile">
           
