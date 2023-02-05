@@ -1,21 +1,43 @@
-.post {
+.card {
     color: black;
     align-self: center;
-    margin-left: auto;
-    margin-right: auto;
-    width: 20vw;
+    margin-top: 4em;
+    margin-right: 2em;
+    margin-left: 2em;
+    /* width: 25vw; */
     height: auto;
     box-shadow: 0px 0px 15px #CCD4DB;
     border-radius: 30px;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 8px;
-    padding-bottom: 12px;
-    margin-top: 40px;
+
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 2em;
+}
+
+#result-title {
+    position: relative;
+    left: -2em;
+}
+
+#res-learn-more {
+    position: relative;
+    left: 10vw;
+    text-decoration: none;
+
+    width: auto;
+    padding: 5px;
+    background-color: #1B3A27;
+    border: 2px solid #1B3A27;
+    border-radius: 35px;
+    /* align-self: center; */
+    /* height: 30px; */
+    color: white;
 }
 
 .myPic {
-    max-width: 100%;
+    width: 100%;
     max-height: 100%;
-    border-radius: 30px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
 }

@@ -1,0 +1,10 @@
+#search-page-container {
+    width: auto;
+    position: relative;
+    top: 20vh;
+    left: -7vw;
+}
+
+#result-feed-container {
+    top: 30vh;
+}

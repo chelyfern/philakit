@@ -5,10 +5,13 @@ import blob from './blob.jpg'
 export default function Res() {
     return (
         <div>
-            <div className="post">
+            <div className="card">
                 <img className="myPic" src={blob} alt="org"/>
-                <h1>ORG TITLE</h1>
-                <p align="center">learn more</p>
+                <h1 id="result-title">ORG TITLE</h1>
+                {/* <p align="center">learn more</p> */}
+                <a href="/" id="res-learn-more">
+                    learn more
+                </a>
             </div>
         </div>
     )
