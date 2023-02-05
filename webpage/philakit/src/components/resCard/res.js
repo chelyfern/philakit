@@ -1,15 +1,15 @@
 import React from "react";
-import './blogp.css'
+import './res.css'
+import blob from './blob.jpg'
 
-export default function BlogPost() {
+export default function Res() {
     return (
         <div>
-                <div className="post">
-                    <h1>POST TITLE</h1>
-                    <p>Short description of post</p>
-                    <br></br>
-                    <p>Author • Timestamp</p>
-                </div>
+            <div className="post">
+                <img className="myPic" src={blob} alt="org"/>
+                <h1>ORG TITLE</h1>
+                <p align="center">learn more</p>
+            </div>
         </div>
     )
 }
