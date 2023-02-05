@@ -4,7 +4,7 @@ import './blog.css'
 
 export default function BlogPage() {
     return (
-        <div>
+        <div className="posties">
             <BlogPost/>
         </div>
     )
