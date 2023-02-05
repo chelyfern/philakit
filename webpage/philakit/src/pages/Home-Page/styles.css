@@ -27,3 +27,7 @@
     border-radius: 50px;
     height: 100em;
 }
+
+#logout-button {
+    position: relative;
+}

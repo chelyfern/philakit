@@ -1,10 +1,10 @@
-import React, {useState} from "react";
+import React, {useState, useEffect} from "react";
 import {signInWithEmailAndPassword} from 'firebase/auth';
 import {auth} from '../../firebase';
 import {NavLink, useNavigate} from 'react-router-dom';
 import './login.css'
 
-const LoginPage = () => {
+const LoginPage = ( { isUser, setisUser, user, setUser }) => {
     const navigate = useNavigate();
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
@@ -15,8 +15,12 @@ const LoginPage = () => {
         .then((userCredential) => {
             // Signed in
             const user = userCredential.user;
-            navigate("/home")
+            navigate("/profile")
             console.log(user);
+            sessionStorage.setItem('isUser', true)
+            sessionStorage.setItem('user', email)
+            setisUser(true)
+            setUser(email)
         })
         .catch((error) => {
             const errorCode = error.code;

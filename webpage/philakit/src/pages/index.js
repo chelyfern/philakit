@@ -9,6 +9,7 @@ export { default as BlogPage } from './blogPage/blog'
 export { default as ProfilePage } from './profilePage/profile'
 export { default as LoginPage } from './loginPage/login'
 export { default as SearchPage } from './seachPage/searchPage'
+export { default as RegisterPage } from './registerPage/register'
 
 
 ReactDOM.render(
