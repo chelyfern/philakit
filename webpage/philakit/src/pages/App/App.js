@@ -9,7 +9,7 @@ function App() {
     <div>
 
       <div>
-        <Navbar/>
+        <Navbar></Navbar>
       </div>
 
       <Switch>

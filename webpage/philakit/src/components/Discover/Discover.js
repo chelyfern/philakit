@@ -1,9 +1,9 @@
 import React, {  } from "react";
-// import './styles.css'
+import './discover.css'
 
 export default function Discover() {
     return (
-        <div id="homepage-container">
+        <div id="discover-container">
 
             Discover Causes
 

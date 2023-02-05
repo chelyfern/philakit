@@ -1,17 +1,15 @@
-#homepage-container {
+#search-container {
+    width: auto;
     position: relative;
-}
+    top: 40vh;
+    left: 5vw;
 
-#search-bar {
-    position: relative;
-    top: 30vh;
-    left: 30%;
 }
 
 #surprise-me-link {
     position: relative;
-    top: 32vh;
-    left: 50%;
+    top: 42vh;
+    left: 25%;
     text-decoration: none;
 }
 
@@ -19,7 +17,7 @@
     position: relative;
     margin-left: 10em;
     margin-right: 10em;
-    height: auto;
+    /* height: auto; */
     border: 2px solid black;
     top: 70vh;
 
@@ -27,9 +25,5 @@
     border-style: solid;
     border-color: #000000;
     border-radius: 50px;
-    height: 100%;
-}
-
-#discover-section {
-
+    height: 100em;
 }

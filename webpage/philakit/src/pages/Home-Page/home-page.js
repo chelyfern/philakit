@@ -4,14 +4,16 @@ import { SearchBar, Discover } from "../../components";
 
 export default function HomePage() {
     return (
-        <div id="homepage-container">
+        <div>
 
-            <SearchBar id="search-bar"/>
+            <div  id="search-container">
+                <SearchBar/>
+            </div>
 
             <a href="#discover-container" id="surprise-me-link">surprise me!</a>
 
             <div id="discover-container">
-                <Discover id="discover-section"/>
+                {/* <Discover id="discover-section"/> */}
             </div>
 
         </div>
