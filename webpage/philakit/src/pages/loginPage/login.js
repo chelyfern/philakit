@@ -2,6 +2,7 @@ import React, {useState, useEffect} from "react";
 import {signInWithEmailAndPassword} from 'firebase/auth';
 import {auth} from '../../firebase';
 import {NavLink, useNavigate} from 'react-router-dom';
+import blobby from './img9.svg'
 import './login.css'
 
 const LoginPage = ( { isUser, setisUser, user, setUser }) => {
@@ -31,34 +32,35 @@ const LoginPage = ( { isUser, setisUser, user, setUser }) => {
     }
     return (
         <div>
-            <h1>Login page</h1>
+            <img className="image" src={blobby} alt="blobbbyyy"/>
             <div className="form">
                 <form>
+                    <h1>Login</h1>
                     <div className="input">
-                        <label>Email Address</label>
                         <input
                             id="email-address"
                             name="email"
                             type="email"
                             placeholder="Email Address"
                             onChange={(e) => setEmail(e.target.value)} 
-                            required/>
+                            required className="box"/>
                     </div>
                     <div className="input">
-                        <label>Password</label>
                         <input
                             id="password"
                             name="password"
                             type="password"                                                                                                                  
                             placeholder="Password"
                             onChange={(e)=>setPassword(e.target.value)}
-                            required/>
+                            required className="box"/>
                     </div>
+                    <br></br>
+                    <br></br>
                     <div className="buttons">
                         <button
                         onClick={onLogin}
                         >
-                            Sign in
+                            Login
                             </button>
                     </div>
                 </form>
