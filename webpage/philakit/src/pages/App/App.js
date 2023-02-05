@@ -12,7 +12,6 @@ function App() {
       <div>
         <Navbar/>
       </div>
-    
       <Routes>
         <Route exact path="/" element={<HomePage />}/>
         <Route exact path="/map" element={<MapPage />}/>
@@ -23,7 +22,6 @@ function App() {
         <Route exact path="/register" element={<RegisterPage />}/>
 
       </Routes>
-    
 
     </div>
   );
