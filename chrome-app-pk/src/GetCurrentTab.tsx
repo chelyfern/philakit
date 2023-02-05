@@ -15,7 +15,6 @@ const GetCurrentTab = () => {
   
     return (
       <div>
-        <h3>url test</h3>
         <div>{tab}</div>
       </div>
 

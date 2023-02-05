@@ -15,10 +15,16 @@ pkStyles.innerHTML = `
   right: 0;
   top: 0;
   width: 300px;
-  height: 100vh;
-  background: #ffffff;
-  border-right: 1px solid #c2c2c2;
+  height: 50vh;
+  background: #fff;
+  color: #A7D5B8;
   z-index: 999999999;
+  padding-left: 20px;
+  border: 3px solid black;
+  border-radius: 30px;
+  margin-top: 10px;
+  margin-right: 10px;
+
   }
 `;
 
