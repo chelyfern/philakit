@@ -13,8 +13,9 @@
 #profile-container {
     display: flex;
     position: relative;
-    top: 5em;
-    left: -7em;
+    top: 1.5em;
+    left: 4em;
+    width: 90vw;
 }
 
 #welcome-label {
@@ -22,7 +23,58 @@
 
 .col {
     position: relative;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     flex: 2;
     width: 100vw;
+}
+
+img {
+    width: 50vw;
+    padding-top: 0px;
+    margin-top: 0px;
+}
+
+h1 {
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+#logout-button {
+    position: absolute;
+    top: 22vw;
+    left: 20vw;
+}
+
+#newPost-button {
+    position: absolute;
+    top: 26vw;
+    left: 20vw;
+}
+
+#post-form {
+    position: absolute;
+    top: 28vw;
+    left: 14.5vw;
+}
+
+.button {
+    position: absolute;
+    left: 5.5vw;
+    margin-top: 20px;
+}
+
+.butt {
+    border-radius: 20px;
+    border: 2px solid black;
+    height: auto;
+    margin-top: 15px;
+    margin-bottom: 0px;
+}
+
+#col2 {
+    scroll-behavior: smooth;
+    overflow-y: scroll;
+    height: 600px;
+    background-color: antiquewhite;
+    border-radius: 40px;
 }
