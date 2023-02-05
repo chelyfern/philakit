@@ -1,10 +1,22 @@
+.navbar {
+    /* display: flex; */
+    /* width: 100%; */
+}
+
+.left {
+    float: left;
+}
+.right {
+    float: right;
+}
+
 .link {
     color: black;
     text-decoration: none;
-    display: block;
     float: left;
-    padding-right: 50px;
-    padding-left: 50px;
+    display: block;
+    padding-right: 1em; 
+    padding-left: 1em;
     padding-top: 20px;
     padding-bottom: 20px;
     font-size: 20px;

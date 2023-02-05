@@ -1,20 +1,46 @@
-import React from "react";
+import React, { Link } from "react";
+import {  signOut } from "firebase/auth";
+import { auth } from "../../firebase";
+import { useNavigate } from "react-router-dom";
 import './styles.css'
 import { SearchBar, Discover, Res } from "../../components";
 
-export default function HomePage() {
-    return (
-        <div id="homepage-container">
+const HomePage = () => {
+    const navigate = useNavigate();
+ 
+    const handleLogout = () => {               
+        signOut(auth).then(() => {
+        // Sign-out successful.
+            navigate("/");
+            console.log("Signed out successfully")
+        }).catch((error) => {
+        // An error happened.
+        });
+    }
 
-            <SearchBar id="search-bar"/>
+    return (
+        <div>
+
+            <div  id="search-container">
+                <SearchBar/>
+            </div>
 
             <a href="#discover-container" id="surprise-me-link">surprise me!</a>
 
             <div id="discover-container">
-                <Discover id="discover-section"/>
+                {/* <Discover id="discover-section"/> */}
             </div>
-            <Res/>
+
+            <div>
+                <button onClick={handleLogout}>
+                    Logout
+                </button>
+
+            </div>
+
 
         </div>
     )
 }
+
+export default HomePage
