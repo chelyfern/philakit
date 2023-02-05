@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+// import phila from './phila.jpg'
 function App() {
   function btnClick(): void{
     window.open('https://philakit.surge.sh');
@@ -6,11 +7,18 @@ function App() {
   return (
     <div>
       <header>
-       <h4> Welcome to philakit </h4>
-       <div>
-            <button onClick={btnClick}>Go to philakit</button>
-        </div>
+       <h1 align-items="center" background-color="black"> Welcome to philakit </h1>
+       {/* <img src={phila} alt="logo"/> */}
       </header>
+      <div className='esg'>
+        <h1 font-size="100px">84%</h1>
+      </div>
+      <div>
+        <h4>learn more</h4>
+      </div>
+      <div>
+        <button onClick={btnClick}>Search orgs</button>
+      </div>
     </div>
   );
 }
