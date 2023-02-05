@@ -7,7 +7,7 @@ import prof from './User 2.svg'
 export default function Navbar() {
     return (
         <div>
-            <Link to="../profile">
+            <Link to="/profile">
                 <img className="prof" src={prof} alt="profile" />
             </Link>
             <Link exact="true" to="/" className="link">home</Link>

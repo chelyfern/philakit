@@ -9,3 +9,20 @@
     padding-bottom: 20px;
     font-size: 20px;
 }
+
+#profile-container {
+    display: flex;
+    position: relative;
+    top: 5em;
+    left: -7em;
+}
+
+#welcome-label {
+}
+
+.col {
+    position: relative;
+    border: 2px solid black;
+    flex: 2;
+    width: 100vw;
+}
