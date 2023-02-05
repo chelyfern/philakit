@@ -1,9 +1,8 @@
 import './App.css';
 import React, {  } from 'react';
 import { Switch, Route, Routes, BrowserRouter } from 'react-router-dom';
-import { HomePage, MapPage, BlogPage, ProfilePage, LoginPage } from '..'
+import { HomePage, MapPage, BlogPage, ProfilePage, LoginPage, RegisterPage, SearchPage } from '..'
 import { Navbar } from '../../components'
-import RegisterPage from '../registerPage/register';
 
 function App() {
   return (
@@ -20,6 +19,7 @@ function App() {
         <Route exact path="/profile" element={<ProfilePage />}/>
         <Route exact path="/login" element={<LoginPage />}/>
         <Route exact path="/register" element={<RegisterPage />}/>
+        <Route exact path="/search" element={<SearchPage />}/>
 
       </Routes>
 

@@ -37,7 +37,7 @@ const HomePage = () => {
                 </button>
 
             </div>
-            <Res/>
+
 
         </div>
     )
