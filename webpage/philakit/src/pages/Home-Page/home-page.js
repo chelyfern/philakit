@@ -1,6 +1,6 @@
 import React, { Link } from "react";
 import './styles.css'
-import { SearchBar, Discover } from "../../components";
+import { SearchBar, Discover, Res } from "../../components";
 
 export default function HomePage() {
     return (
@@ -13,6 +13,7 @@ export default function HomePage() {
             <div id="discover-container">
                 <Discover id="discover-section"/>
             </div>
+            <Res/>
 
         </div>
     )

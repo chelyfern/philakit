@@ -11,7 +11,6 @@ function App() {
       <div>
         <Navbar/>
       </div>
-    
       <Routes>
         <Route exact path="/" element={<HomePage />}/>
         <Route exact path="/map" element={<MapPage />}/>
@@ -21,7 +20,6 @@ function App() {
         <Route exact path="/login" element={<LoginPage />}/>
 
       </Routes>
-    
 
     </div>
   );
