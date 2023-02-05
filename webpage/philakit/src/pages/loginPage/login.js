@@ -27,7 +27,7 @@ const LoginPage = () => {
     }
     return (
         <div>
-            <h1>Login/sign up page</h1>
+            <h1>Login page</h1>
             <div className="form">
                 <form>
                     <div className="input">
