@@ -6,20 +6,15 @@ import prof from './User 2.svg'
 
 export default function Navbar() {
     return (
-        <div className="navbar">
-            <div className="left">
-                <a href="tbd">
-                    <img className="prof" src={prof} alt="profile" />
-                </a>
-                <Link exact="true" to="/" className="link">home</Link>
-                <Link exact="true" to="/map" className="link">map</Link>
-                <Link exact="true" to="/blog" className="link">blog</Link>
-            </div>
-
-            <div className="right">
-                <img className="logoimg" src={logo} alt="logo" />
-                <Link className="logo" to="/">philakit</Link>
-            </div>
+        <div>
+            <Link to="../profile">
+                <img className="prof" src={prof} alt="profile" />
+            </Link>
+            <Link exact="true" to="/" className="link">home</Link>
+            <Link exact="true" to="/map" className="link">map</Link>
+            <Link exact="true" to="/blog" className="link">blog</Link>
+            <img className="logoimg" src={logo} alt="logo" />
+            <Link className="logo" to="/">philakit</Link>
         </div>
     )
 }
